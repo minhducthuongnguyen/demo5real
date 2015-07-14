@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo5real"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mainmenu"
+            android:label="@string/title_activity_mainmenu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Score"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Color"
+            android:label="@string/title_activity_color" >
+            
+        </activity>
+        <activity
+            android:name=".Red"
+            android:label="@string/title_activity_red" >
+        </activity>
+        <activity
+            android:name=".Green"
+            android:label="@string/title_activity_green" >
+        </activity>
+        <activity
+            android:name=".Blue"
+            android:label="@string/title_activity_blue" >
+        </activity>
+        <activity
+            android:name=".UScore"
+            android:screenOrientation="portrait" 
+            android:label="@string/title_activity_uscore" >
+        </activity>
+        <activity
+            android:name=".Secret"
+            android:screenOrientation="portrait" 
+            android:label="@string/title_activity_secret" >
+        </activity>
+    </application>
+
+</manifest>

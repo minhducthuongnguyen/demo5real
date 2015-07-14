@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">demo5real</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mainmenu">Color Bluck</string>
+    <string name="title_activity_score">Score</string>
+    <string name="title_activity_color">Color</string>
+    <string name="title_activity_red">Red</string>
+    <string name="title_activity_green">Green</string>
+    <string name="title_activity_blue">Blue</string>
+    <string name="title_activity_uscore">UScore</string>
+    <string name="title_activity_secret">Secret</string>
+
+</resources>
