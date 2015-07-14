@@ -206,7 +206,7 @@ public class MainActivity extends Activity {
         	color10 = ((ColorDrawable) background10).getColor();
         	}
         
-        ////.check button
+        //.check button
         if (((b2.isPressed())&&(color1==color2))||
         	((b3.isPressed())&&(color1==color3))||
         	((b4.isPressed())&&(color1==color4))||
