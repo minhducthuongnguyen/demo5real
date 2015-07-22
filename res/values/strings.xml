@@ -12,5 +12,7 @@
     <string name="title_activity_blue">Blue</string>
     <string name="title_activity_uscore">UScore</string>
     <string name="title_activity_secret">Secret</string>
+    <string name="title_activity_word">Word</string>
+    <string name="title_activity_wscore">WScore</string>
 
 </resources>

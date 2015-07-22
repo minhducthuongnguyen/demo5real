@@ -14,7 +14,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar" >
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -37,30 +37,43 @@
         </activity>
         <activity
             android:name=".Color"
-            android:label="@string/title_activity_color" >
-            
+            android:label="@string/title_activity_color" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".Red"
-            android:label="@string/title_activity_red" >
+            android:label="@string/title_activity_red"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Green"
-            android:label="@string/title_activity_green" >
+            android:label="@string/title_activity_green" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".Blue"
-            android:label="@string/title_activity_blue" >
+            android:label="@string/title_activity_blue" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".UScore"
-            android:screenOrientation="portrait" 
-            android:label="@string/title_activity_uscore" >
+            android:label="@string/title_activity_uscore"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Secret"
-            android:screenOrientation="portrait" 
-            android:label="@string/title_activity_secret" >
+            android:label="@string/title_activity_secret"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Word"
+            android:label="@string/title_activity_word"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WScore"
+            android:label="@string/title_activity_wscore"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 

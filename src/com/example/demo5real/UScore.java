@@ -28,15 +28,16 @@ public class UScore extends Activity {
 		int score = prefs.getInt("ulthescore", 0); 
 		
 		if((thePoint>score)&&(thePoint!=0)){
-			theGreet.setText("ULTIMATE\nHIGHSCORE!!\n\n\n"+thePoint);
+			theGreet.setText("ULTIMATE\nHIGHSCORE!!\n\n"+thePoint);
 			Editor editor = prefs.edit();
 			editor.putInt("ulthescore", thePoint);
 			editor.commit();}
 		
 		else
-			theGreet.setText("ULTIMATE\nGAMEOVER!\n\n\n"+thePoint);
+			theGreet.setText("ULTIMATE\nGAMEOVER!\n\n"+thePoint);
 	}
-
+	@Override
+	public void onBackPressed() {};
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

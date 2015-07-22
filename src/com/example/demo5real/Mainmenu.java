@@ -53,4 +53,10 @@ public class Mainmenu extends Activity {
 		Intent intent=new Intent(ClickedButton.getContext(), Secret.class);
 		startActivityForResult(intent,0);
 	}
+	
+	public void Word(View ClickedButton){
+		v.vibrate(50);
+		Intent intent=new Intent(ClickedButton.getContext(), Word.class);
+		startActivityForResult(intent,0);
+	}
 }

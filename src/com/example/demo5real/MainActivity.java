@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 	
 	CountDownTimer cd;
 	
-	int[] colorlist= {0xFFFF0066,0xFF3366FF,0xff00CC00,0xffCC00CC,0xffFF0000,0xff00FFFF,0xff996633,0xff660066,0xff339933};
+	int[] colorlist= {0xFFFF0066,0xFF3366FF,0xffFF9900,0xffCC00CC,0xffFF0000,0xff009999,0xff996633,0xff660066,0xff339933};
 	
 	boolean game=true;
 	
@@ -75,7 +75,7 @@ public class MainActivity extends Activity {
 		tv2=(TextView)findViewById(R.id.textView2);
 		
 		tv3=(TextView)findViewById(R.id.textView3);
-		cd=new CountDownTimer(1500, 1) {
+		cd=new CountDownTimer(1000, 1) {
 
 			 public void onTick(long millisUntilFinished) {
 			     tv2.setText("" + millisUntilFinished / 1000+":"+millisUntilFinished%1000);
