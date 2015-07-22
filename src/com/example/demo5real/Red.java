@@ -27,7 +27,7 @@ int point=0;
 	TextView tv3;
 	int score;
 	boolean game=true;
-	
+	Button b0000;
 	Button b1;
 	Button b2;
 	Button b3;
